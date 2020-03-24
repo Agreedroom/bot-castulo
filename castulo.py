@@ -18,11 +18,11 @@ def handle(msg):
 
 		if 'Hola' in command:
 			#ser.write(b'Y')
-			bot.sendMessage(chat_id, "Que pez")
+			bot.sendMessage(chat_id, "Que Salma")
 
-		if 'Lel' in command:
+		if 'que tal?' in command:
 			#ser.write(b'N')
-			bot.sendMessage(chat_id, "lol")
+			bot.sendMessage(chat_id, "nada, aqui haciendo tarea")
 		if 'xd' in command:
 			#ser.write(b'N')
 			bot.sendMessage(chat_id, "huhuhuhuhe")	
