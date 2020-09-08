@@ -18,17 +18,21 @@ def handle(msg):
 
 		if 'Hola' in command:
 			#ser.write(b'Y')
-			bot.sendMessage(chat_id, "Que Salma")
+			bot.sendMessage(chat_id, "Hey Abel como estas?")
 
 		if 'que tal?' in command:
 			#ser.write(b'N')
-			bot.sendMessage(chat_id, "nada, aqui haciendo tarea")
-		if 'xd' in command:
+			bot.sendMessage(chat_id, "muy bien jeje")
+		if '/encender' in command:
 			#ser.write(b'N')
-			bot.sendMessage(chat_id, "huhuhuhuhe")	
+			bot.sendMessage(chat_id, "surguio un error al tratar de encender la lampara")	
 		if 'Ten un buen dia' in command:
 			#ser.write(b'N')
-			bot.sendMessage(chat_id, "No me digas qué hacer")
+			bot.sendMessage(chat_id, "Nos vemos")
+		
+		if 'que eres?' in command:
+			#ser.write(b'N')
+			bot.sendMessage(chat_id, "Soy Castulo, un bot creado por Abel, puedo encender y apagar una lampara  y realizar mas acciones que pronto seran desarrolladas")	
 			
 # Create a bot using the token given by BotFather
 bot = telepot.Bot('386924041:AAG45Htm1E-bBxcRWz7kUeh_ZXY97TtewwA')
